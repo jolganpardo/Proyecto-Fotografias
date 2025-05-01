@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+    width: 100vw;
+    height: 110vh;
+    background: linear-gradient(#FEB4CC 60vh, black 60.2vh, #FEF35F 40vh);
+    font-family: 'Luckiest Guy', cursive;
+}
+header {
+    position: relative;
+    overflow: hidden;
+}
+header nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    position: fixed;
+    right: 10px;
+}
+header nav a {
+    margin-top: 1vh;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1s;
+    font-size: 25px;
+}
+header nav a:hover {
+    background-color: rgba(223, 121, 234, 0.207);
+    transform: scale(1.1);
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    color: blue;
+    line-height: 80%;
+    letter-spacing: 7px;
+    transform: translate(0%, -10%);
+}
+#img-izq,
+#img-cnt,
+#img-der {
+    border: solid black 1px;
+}
+#img-izq {
+    width: 20vw;
+    height: auto;
+    min-width: 200px;
+    max-width: 40vh;
+    height: auto;
+    border-radius: 35px;
+    margin-left: -3vw;
+}
+#img-cnt {
+    width: 40vw;
+    height: auto;
+    min-width: 250px;
+    max-width: 60vh;
+    height: auto;
+    border-radius: 35vw;
+    margin-left: -2vw;
+    margin-top: -6.5vw;
+}
+#img-der {
+    width: 10vw;
+    height: auto;
+    min-width: 100px;
+    max-width: 20vh;
+    height: auto;
+    border-radius: 35px;
+    margin-top: -7vw;
+    margin-right: 5vw;
+}
+#chat {
+    border: solid 1px black;
+    border-radius: 100%;
+    background-color: #FEF35F;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-content: center;;
+    font-family: 'Luckiest Guy', cursive;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.decor {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    z-index: 1;
+}
+
+.diamante {
+    width: 3.5vw;
+}
+
+.cara {
+    width: 9vw;
+    border-radius: 50%;
+}
+
+.escalera {
+    width: 5vw;
+}
+
+.asterisco {
+    width: 510px;
+}
