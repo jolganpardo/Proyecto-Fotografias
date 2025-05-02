@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
-    transition: 2s;
+    /* transition: 2s; */
 }
 html {
     scroll-behavior: smooth;
@@ -265,8 +265,8 @@ h1 {
 }
 .cont-galeria {
     display: flex;
-    gap: 10px;
     background: transparent;
+    overflow-x: hidden;
 }
 .cont-galeria:hover {
     overflow-x: scroll;
@@ -274,7 +274,6 @@ h1 {
 }
 .cont-galeria::-webkit-scrollbar-track {
     background-color: transparent;
-    margin-top: 100px;
 }
 .cont-galeria::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.4);
