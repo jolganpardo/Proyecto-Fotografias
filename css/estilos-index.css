@@ -33,12 +33,14 @@ header nav a {
     margin-top: 1vh;
     padding: 10px;
     border-radius: 15px;
-    transition: 1s;
+    transition: 2s;
     font-size: 2vw;
+    background-color: rgba(113, 98, 98, 0.61);
 }
 header nav a:hover {
     background-color: rgba(21, 20, 21, 0.386);
     transform: scale(1.2);
+    color:  white;
 }
 main {
     display: flex;
@@ -223,9 +225,6 @@ h1 {
     display: flex;
     align-items: center;
 }
-#cont-img-text img {
-    width: 16%;
-}
 .ball {
     position: absolute;
     width: 30px;
@@ -244,4 +243,43 @@ h1 {
 #frases strong {
     margin-right: 5rem;
     font-size: 1.3vw;
+}
+
+#galeria {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(black 0.2vh, white 0vh, white 70vh, black 70.2vh, #FF6541 70vh);
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cont-galeria img {
+    margin-top: 5vh;
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 2vw;
+}
+.cont-galeria {
+    display: flex;
+    gap: 10px;
+    background: transparent;
+}
+.cont-galeria:hover {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.cont-galeria::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 100px;
+}
+.cont-galeria::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.cont-galeria::-webkit-scrollbar {
+    height: 10px;
 }
