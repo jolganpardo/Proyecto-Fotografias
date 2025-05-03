@@ -884,3 +884,138 @@ header h1 {
     top: 32%;
     left: 75%;
 }
+#contacto {
+    background-color: #FFB4CE;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#cont-img-contacto img{
+    width: 50vw;
+}
+#cont-text-contacto {
+    width: 50vw;
+}
+#cont-text-contacto p {
+    font-family: "Anybody", sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#cont-text-contacto h1 {
+    font-family: "Luckiest Guy", cursive;
+    color: #035DFF;
+    font-size: 7vw;
+    line-height: 85%;
+}
+#fecha {
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0.7vw solid #FF6541;
+    color: #FF6541;
+    font-weight: bold;
+    width: 90%;
+    font-size: 3vw;
+    transition: 1s;
+    cursor: text;
+    padding: 1vw;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+}
+#fecha:hover {
+    transform: scale(1.1);
+    outline: none;
+    font-weight: bold;
+}
+#fecha:focus {
+    outline: none;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+#fecha::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    filter: invert(72%) sepia(81%) saturate(5328%) hue-rotate(339deg) brightness(100%) contrast(101%);
+    cursor: pointer;
+}
+#cont-redes {
+    margin-top: 3vw;
+    background-color: white;
+    width: 95%;
+    height: 4vw;
+    border: 1px solid black;
+    display: flex;
+    box-shadow: -4px 5px 1px rgba(0, 0, 0, 1);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#red-1, #red-2 {
+    background-color: transparent;
+    border-right: 1px solid black;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    padding-top: 1.2vw;
+}
+#red-2 {
+    text-decoration: 3px underline;
+}
+#facebook, #instagram, #telegram {
+    padding-top: 0.4vw;
+    background-color: transparent;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#facebook img, #instagram img, #telegram img {
+    width: 2vw;
+    height: 2vw;
+}
+#facebook div {
+    border-radius: 50%;
+    background-color: #9EF2F3;
+    border: 1px solid black;
+    width: 3vw;
+    height: 3vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+#instagram div {
+    border-radius: 50%;
+    background-color: #FEB4CF;
+    border: 1px solid black;
+    width: 3vw;
+    height: 3vw;
+    align-items: center;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+}
+#telegram div {
+    border-radius: 50%;
+    background-color: #FEF460;
+    border: 1px solid black;
+    width: 3vw;
+    height: 3vw;
+    align-items: center;
+    display: flex;
+    transition: 1s;
+    justify-content: center;
+}
+#red-2 p {
+    transition: 1s;
+}
+#instagram {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#red-2:hover p, #facebook:hover div, #instagram:hover div, #telegram:hover div {
+    transform: scale(1.2);
+}
